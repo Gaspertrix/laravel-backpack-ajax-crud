@@ -1,0 +1,48 @@
+{
+    "name": "gaspertrix/laravel-backpack-ajax-crud",
+    "type": "library",
+    "description": "Add AJAX CRUD support for Laravel Backpack",
+    "keywords": [
+        "gaspertrix",
+        "laravel",
+        "backpack",
+        "dropzone",
+        "media",
+        "upload",
+        "files"
+    ],
+    "homepage": "https://github.com/gaspertrix/laravel-backpack-dropzone-field",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Sacchi",
+            "email": "adrian@gaspertrix.com",
+            "homepage": "https://www.gaspertrix.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "backpack/crud": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Gaspertrix\\Backpack\\AjaxCrud\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gaspertrix\\Backpack\\AjaxCrud\\AjaxCrudServiceProvider"
+            ]
+        }
+    }
+}
