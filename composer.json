@@ -1,17 +1,16 @@
 {
     "name": "gaspertrix/laravel-backpack-ajax-crud",
     "type": "library",
-    "description": "Add AJAX CRUD support for Laravel Backpack",
+    "description": "Add AJAX CRUD and items on the fly support for Laravel Backpack",
     "keywords": [
         "gaspertrix",
         "laravel",
         "backpack",
-        "dropzone",
-        "media",
-        "upload",
-        "files"
+        "ajax",
+        "crud",
+        "fly"
     ],
-    "homepage": "https://github.com/gaspertrix/laravel-backpack-dropzone-field",
+    "homepage": "https://github.com/gaspertrix/laravel-backpack-ajax-crud",
     "license": "MIT",
     "authors": [
         {
