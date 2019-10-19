@@ -21,6 +21,13 @@ class AjaxCrudServiceProvider extends ServiceProvider
             $this->commands($this->commands);
         }
 
+        // Load custom views first
+        $customViewsFolder = resource_path('views/vendor/gaspertrix/ajaxcrud');
+
+        if (file_exists($customViewsFolder)) {
+            $this->loadViewsFrom($customViewsFolder, 'ajaxcrud');
+        }
+
         // Load views
         $this->loadViewsFrom(realpath(__DIR__ . '/resources/views'), 'ajaxcrud');
 
