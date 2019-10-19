@@ -25,7 +25,7 @@ trait AjaxCrud
         $this->crud->setCreateView('ajaxcrud::create');
         $this->crud->setEditView('ajaxcrud::edit');
         
-        $this->crud->addButton('line', 'update', 'view', 'ajaxcrud::buttons.update', 'end');
+        $this->crud->addButton('line', 'update', 'view', 'ajaxcrud::buttons.update', 'beginning');
         $this->crud->addButton('top', 'create', 'view', 'ajaxcrud::buttons.create');
 
         $this->crud->ajax_crud = true;
