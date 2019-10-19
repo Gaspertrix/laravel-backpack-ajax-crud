@@ -20,6 +20,7 @@ trait AjaxCrud
     public function enableAjaxCrud()
     {
         $this->crud->setCreateContentClass('col-md-12');
+        $this->crud->setEditContentClass('col-md-12');
 
         $this->crud->setListView('ajaxcrud::list');
         $this->crud->setCreateView('ajaxcrud::create');
