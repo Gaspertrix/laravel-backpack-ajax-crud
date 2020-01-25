@@ -15,7 +15,7 @@ $(document).on('submit', '#modal-ajax-crud form', function(event){
                 if (jQuery.isFunction($('#crudTable').dataTable))
                 {
                     // TODO: Add/update item dynamically into list
-                    crud.table.api().ajax.reload();
+                    crud.table.ajax.reload();
                 }
 
                 switch ($('#saveActions input[name="save_action"').val()) {
