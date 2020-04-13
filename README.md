@@ -1,6 +1,13 @@
 # Backpack Ajax crud
+=================
 
-Add ajax crud support for [Laravel Backpack](https://laravel-backpack.readme.io/docs).
+**This repository is abandoned.**
+
+Suggested alternative: [Laravel Backpack Inline create](https://backpackforlaravel.com/docs/4.1/crud-operation-inline-create).
+
+------
+
+Add ajax crud support for [Laravel Backpack 3.x](https://laravel-backpack.readme.io/docs).
 
 ## Requirements
 - [Laravel Backpack](https://laravel-backpack.readme.io/docs)
