@@ -1,6 +1,6 @@
-# laravel-backpack-ajax-crud
+# Backpack Ajax crud
 
-Add Dropzone support for [Laravel Backpack](https://laravel-backpack.readme.io/docs).
+Add ajax crud support for [Laravel Backpack](https://laravel-backpack.readme.io/docs).
 
 ## Requirements
 - [Laravel Backpack](https://laravel-backpack.readme.io/docs)
